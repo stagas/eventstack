@@ -1,18 +1,22 @@
-{ "name" : "eventstack"
-, "description" : "Middleware for EventEmitters"
-, "version" : "0.0.1"
-, "homepage" : "https://github.com/stagas/eventstack"
-, "author" : "George Stagas <gstagas@gmail.com> (http://stagas.com/)"
-, "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/stagas/eventstack.git"
-  }
-, "main": "./index.js"
-, "devDependencies" : {
-    "tap" : "*"
-  }
-, "scripts" : {
-    "test" : "tap test"
-  }
-, "engines" : { "node" : ">=0.4.12" }
+{
+  "name": "eventstack",
+  "description": "Middleware for EventEmitters",
+  "version": "0.1.0",
+  "homepage": "https://github.com/stagas/eventstack",
+  "author": "George Stagas <gstagas@gmail.com> (http://stagas.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stagas/eventstack.git"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "tap": "*"
+  },
+  "scripts": {
+    "test": "tap test"
+  },
+  "engines": {
+    "node": "~0.6.9"
+  },
+  "dependencies": {}
 }

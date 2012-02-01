@@ -1,6 +1,6 @@
 var EventStack = require('../')
 
-var ee = EventStack()
+var ee = new EventStack
 
 ee.on('foo', function (s) {
   console.log('listener foo got:', s)
