@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/stagas/eventstack.png)](http://travis-ci.org/stagas/eventstack)
 # EventStack
 
 Middleware for EventEmitters
